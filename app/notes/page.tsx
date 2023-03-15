@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import Post from './post';
 
-const token = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzNTMyIiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjc4NjE1NTcwLCJleHAiOjE2Nzk5MTE1NzAsImp0aSI6IjllOWUxNDczLWI2ZmQtNDQyMC04MzJlLTRhOTVlODM3N2E5ZCJ9.y2ziv-SCDrvXJmWnYVJ7Jjko7-HQwf-qHB3mF61GtlQ '
+const token = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzNTYwIiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjc4ODQzNTI5LCJleHAiOjE2ODAxMzk1MjksImp0aSI6Ijk1OGU2YWI3LTBhNGQtNDA2Zi04OTRkLTRmN2ExYjJiYTgxZiJ9.b9hAvmAxDJrYtGie-vAtYCdYq4vgOSw3_mMx5YbWcTk'
 
 async function getData() {
   const result = await fetch('https://todoo.5xcamp.us/todos',
