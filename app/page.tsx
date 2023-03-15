@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Link href='/notes'>notesTodo</Link>
       <p>記得換token</p>
+      <p>有分兩邊token,getData,post</p>
     </>
   )
 }
